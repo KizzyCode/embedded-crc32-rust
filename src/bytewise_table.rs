@@ -1,4 +1,4 @@
-//! A byte-wise CRC32C implementation
+//! A table-based, byte-wise CRC32C implementation
 
 /// A precomputed CRC32C table
 const TABLE_CRC32C: [u32; 256] = [
