@@ -1,6 +1,6 @@
 #![no_std]
 #![doc = include_str!("../README.md")]
 
-mod bytes;
+mod bytewise_table;
 
-pub use crate::bytes::crc32c;
+pub use crate::bytewise_table::crc32c;
